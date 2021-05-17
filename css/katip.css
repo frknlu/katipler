@@ -1,0 +1,88 @@
+/* www.sherlockmedya.com*/
+@media (max-width: 992px) {
+#bannerarkaalani{ display: none; }
+#banneralan{ display: none; }
+#logosol{ display: none; }
+#logosag{ display: none; }
+#bayrak{ display: none; }
+#bsk{margin-top:40px;}
+#baslikh{font-size: 15px;}
+}
+
+@media (max-width: 432px) {
+#bannerarkaalani{ display: none; }
+#banneralan{ display: none; }
+#logosol{ display: none; }
+#logosag{ display: none; }
+#bayrak{ display: none; }
+#bsk{margin-top:70px;}
+#baslikh{font-size: 15px;}
+}
+
+@media (max-min: 991px) {
+#bsk{display: none;}
+}
+
+#bannerarkaalani{
+	background-image: url(../images/arkaust.png);
+	background-repeat: repeat-x;
+	min-width:1024px;
+	}
+#banneralan {
+	margin-top: 30px;
+	width: 1024px;
+	margin-right: auto;
+	margin-left: auto;
+	height: 180px;
+	background-image: url(../images/bannerarkaok.png);
+	background-repeat: no-repeat;
+}
+#logosol {
+	float: left;
+	width: 561px;
+	padding-top: 20px;
+}
+#logosag {
+	float: right;
+	width: 400px;
+	padding-top: 0px;
+	background-image: url(../images/ataturk.png);
+	background-repeat: no-repeat;
+	background-position: right 0px;
+	height: 180px;
+}
+#bayrak {
+	width: 279px;
+	float: right;
+}
+a:hover { text-decoration:none; }
+.btn
+{
+    transition: all .2s linear;
+    -webkit-transition: all .2s linear;
+    -moz-transition: all .2s linear;
+    -o-transition: all .2s linear;
+}
+.btn-read-more
+{
+    padding: 5px;
+    text-align: center;
+    border-radius: 0px;
+    display: inline-block;
+    border: 2px solid #662D91;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 12px;
+    color:#662D91;
+}
+.btn-read-more:hover
+{
+    color: #FFF;
+    background: #662D91;
+}
+.post { border-bottom:1px solid #DDD }
+.post-title {  color:#662D91; }
+.post .glyphicon { margin-right:5px; }
+.post-header-line { border-top:1px solid #DDD;border-bottom:1px solid #DDD;padding:5px 0px 5px 15px;font-size: 12px; }
+.post-content { padding-bottom: 15px;padding-top: 15px;}
